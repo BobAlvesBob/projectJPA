@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "tb_user" )
 public class User implements Serializable {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
@@ -21,7 +21,7 @@ public class User implements Serializable {
 	private String email;
 	private String phone;
 	private String password;
-	
+
 	public User() {
 		
 	}
